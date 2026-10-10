@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/ibm_sdk80"/>
+	<classpathentry kind="lib" path="C:/si/si_jars/AEFACE.JAR"/>
+	<classpathentry kind="lib" path="C:/si/si_jars/AEF.JAR"/>
+	<classpathentry kind="lib" path="C:/si/si_jars/SIUTIL.JAR"/>
+	<classpathentry kind="lib" path="C:/si/si_jars/aefsys.jar"/>
+	<classpathentry kind="lib" path="C:/si/si_jars/sureview.jar"/>
+	<classpathentry kind="lib" path="C:/si/si_jars/SVACE.JAR"/>
+	<classpathentry kind="lib" path="C:/si/si_jars/SVSA.JAR"/>
+	<classpathentry kind="lib" path="C:/Users/ken.moyer/workspace/JSON.org/json.jar"/>
+	<classpathentry kind="lib" path="C:/si/si_jars/jpos14.jar"/>
+	<classpathentry kind="lib" path="C:/si/si_jars/svsc.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

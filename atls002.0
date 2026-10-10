@@ -1,0 +1,149 @@
+2026-01-24 18:59:23.877 [INFO] Level set to:DEBUG
+2026-01-24 18:59:23.913 [INFO] url:tcp://atlassecurity:8080/test
+2026-01-24 18:59:23.915 [INFO] httpConnectTimeout:1000
+2026-01-24 18:59:23.917 [INFO] httpReadTimeout:1000
+2026-01-24 18:59:23.919 [INFO] heartbeatSeconds:60
+2026-01-24 18:59:23.922 [INFO] heartbeatInitDelay:300
+2026-01-24 18:59:23.929 [INFO] AtlasSecurityUpdater started
+2026-01-24 18:59:23.931 [INFO] AtlasSecurityBasicUpdater started
+2026-01-24 18:59:23.935 [INFO] AtlasSecuritySocketClient started
+2026-01-24 18:59:49.039 [DEBUG] signOn called
+2026-01-24 18:59:49.055 [DEBUG] sendTheMessage called
+2026-01-24 18:59:49.061 [DEBUG] Sending:{"eventData":{},"header":{"timeStamp":"2026-01-24T23:59:49.054Z","termId":2,"operatorId":"1","msgSeqNo":1},"eventType":"signOn"}
+2026-01-24 18:59:49.074 [DEBUG] response:OK
+2026-01-24 18:59:54.615 [DEBUG] TRANSACTION START SEEN
+2026-01-24 18:59:54.623 [DEBUG] sendTheMessage called
+2026-01-24 18:59:54.633 [DEBUG] Sending:{"eventData":{},"header":{"timeStamp":"2026-01-24T23:59:54.620Z","termId":2,"transNo":31,"operatorId":"1","msgSeqNo":2},"eventType":"transStart"}
+2026-01-24 18:59:54.641 [DEBUG] response:OK
+2026-01-24 18:59:55.672 [DEBUG] TOTALS SEEN
+2026-01-24 18:59:55.675 [DEBUG] sendTheMessage called
+2026-01-24 18:59:55.679 [DEBUG] Sending:{"eventData":{"taxTotal":4,"amtDue":154,"transTotal":154},"header":{"timeStamp":"2026-01-24T23:59:55.674Z","termId":2,"transNo":31,"operatorId":"1","msgSeqNo":3},"eventType":"transTotal"}
+2026-01-24 18:59:55.689 [DEBUG] response:OK
+2026-01-24 18:59:56.047 [DEBUG] AtlasItemSalesEvent SEEN
+2026-01-24 18:59:56.052 [DEBUG] ItemSale a
+2026-01-24 18:59:56.059 [DEBUG] ItemSale b
+2026-01-24 18:59:56.066 [DEBUG] getInputType:KeyedItemCode
+2026-01-24 18:59:56.071 [DEBUG] ItemSale c
+2026-01-24 18:59:56.074 [DEBUG] ItemSale c-1
+2026-01-24 18:59:56.078 [DEBUG] ItemSale c-2
+2026-01-24 18:59:56.081 [DEBUG] ItemSale d
+2026-01-24 18:59:56.084 [DEBUG] sendTheMessage called
+2026-01-24 18:59:56.086 [DEBUG] Sending:{"eventData":{"unitPrice":300,"amount":150,"itemType":"","isAgeRestricted":false,"upc":"59","weight":0,"dept":100,"descr":"FROM 50           ","entry":"keyed","unit":"each","isVoid":false,"qty":1,"minAge":-1},"header":{"timeStamp":"2026-01-24T23:59:56.058Z","termId":2,"transNo":31,"operatorId":"1","msgSeqNo":4},"eventType":"item"}
+2026-01-24 18:59:56.093 [DEBUG] response:OK
+2026-01-24 18:59:56.097 [DEBUG] ItemSale e
+2026-01-24 19:00:00.909 [DEBUG] TOTALS SEEN
+2026-01-24 19:00:00.913 [DEBUG] sendTheMessage called
+2026-01-24 19:00:00.916 [DEBUG] Sending:{"eventData":{"taxTotal":4,"amtDue":323,"transTotal":323},"header":{"timeStamp":"2026-01-25T00:00:00.913Z","termId":2,"transNo":31,"operatorId":"1","msgSeqNo":5},"eventType":"transTotal"}
+2026-01-24 19:00:00.923 [DEBUG] response:OK
+2026-01-24 19:00:01.180 [DEBUG] AtlasItemSalesEvent SEEN
+2026-01-24 19:00:01.183 [DEBUG] ItemSale a
+2026-01-24 19:00:01.187 [DEBUG] ItemSale b
+2026-01-24 19:00:01.192 [DEBUG] getInputType:ScannedItemCode
+2026-01-24 19:00:01.195 [DEBUG] ItemSale c
+2026-01-24 19:00:01.198 [DEBUG] ItemSale c-1
+2026-01-24 19:00:01.201 [DEBUG] ItemSale c-2
+2026-01-24 19:00:01.203 [DEBUG] ItemSale d
+2026-01-24 19:00:01.205 [DEBUG] sendTheMessage called
+2026-01-24 19:00:01.208 [DEBUG] Sending:{"eventData":{"unitPrice":169,"amount":169,"itemType":"","isAgeRestricted":false,"upc":"78616208000","weight":0,"dept":60,"descr":"GLACEAU ENERGY*   ","entry":"scanned","unit":"each","isVoid":false,"qty":1,"minAge":-1},"header":{"timeStamp":"2026-01-25T00:00:01.186Z","termId":2,"transNo":31,"operatorId":"1","msgSeqNo":6},"eventType":"item"}
+2026-01-24 19:00:01.213 [DEBUG] response:OK
+2026-01-24 19:00:01.216 [DEBUG] ItemSale e
+2026-01-24 19:00:11.573 [DEBUG] TOTALS SEEN
+2026-01-24 19:00:11.575 [DEBUG] sendTheMessage called
+2026-01-24 19:00:11.580 [DEBUG] Sending:{"eventData":{"taxTotal":4,"amtDue":154,"transTotal":154},"header":{"timeStamp":"2026-01-25T00:00:11.575Z","termId":2,"transNo":31,"operatorId":"1","msgSeqNo":7},"eventType":"transTotal"}
+2026-01-24 19:00:11.584 [DEBUG] response:OK
+2026-01-24 19:00:11.943 [DEBUG] AtlasItemSalesEvent SEEN
+2026-01-24 19:00:11.946 [DEBUG] ItemSale a
+2026-01-24 19:00:11.948 [DEBUG] ItemSale b
+2026-01-24 19:00:11.950 [DEBUG] getInputType:ScannedItemCode
+2026-01-24 19:00:11.953 [DEBUG] ItemSale c
+2026-01-24 19:00:11.957 [DEBUG] ItemSale c-1
+2026-01-24 19:00:11.959 [DEBUG] ItemSale c-2
+2026-01-24 19:00:11.961 [DEBUG] ItemSale d
+2026-01-24 19:00:11.964 [DEBUG] sendTheMessage called
+2026-01-24 19:00:11.966 [DEBUG] Sending:{"eventData":{"unitPrice":169,"amount":-169,"itemType":"","isAgeRestricted":false,"upc":"78616208000","weight":0,"dept":60,"descr":"GLACEAU ENERGY*   ","entry":"scanned","unit":"each","isVoid":true,"qty":-1,"minAge":-1},"header":{"timeStamp":"2026-01-25T00:00:11.948Z","termId":2,"transNo":31,"operatorId":"1","msgSeqNo":8},"eventType":"item"}
+2026-01-24 19:00:11.972 [DEBUG] response:OK
+2026-01-24 19:00:11.975 [DEBUG] ItemSale e
+2026-01-24 19:00:18.753 [DEBUG] TOTALS SEEN
+2026-01-24 19:00:18.756 [DEBUG] sendTheMessage called
+2026-01-24 19:00:18.758 [DEBUG] Sending:{"eventData":{"taxTotal":4,"amtDue":154,"transTotal":154},"header":{"timeStamp":"2026-01-25T00:00:18.756Z","termId":2,"transNo":31,"operatorId":"1","msgSeqNo":9},"eventType":"transTotal"}
+2026-01-24 19:00:18.762 [DEBUG] response:OK
+2026-01-24 19:00:20.607 [DEBUG] TOTALS SEEN
+2026-01-24 19:00:20.610 [DEBUG] sendTheMessage called
+2026-01-24 19:00:20.612 [DEBUG] Sending:{"eventData":{"taxTotal":4,"amtDue":154,"transTotal":154},"header":{"timeStamp":"2026-01-25T00:00:20.610Z","termId":2,"transNo":31,"operatorId":"1","msgSeqNo":10},"eventType":"transTotal"}
+2026-01-24 19:00:20.617 [DEBUG] response:OK
+2026-01-24 19:00:24.234 [DEBUG] TOTALS SEEN
+2026-01-24 19:00:24.236 [DEBUG] sendTheMessage called
+2026-01-24 19:00:24.239 [DEBUG] Sending:{"eventData":{"taxTotal":4,"amtDue":0,"transTotal":154},"header":{"timeStamp":"2026-01-25T00:00:24.236Z","termId":2,"transNo":31,"operatorId":"1","msgSeqNo":11},"eventType":"transTotal"}
+2026-01-24 19:00:24.245 [DEBUG] response:OK
+2026-01-24 19:00:24.780 [DEBUG] TENDER EVENT SEEN
+2026-01-24 19:00:24.782 [DEBUG] sendTheMessage called
+2026-01-24 19:00:24.785 [DEBUG] Sending:{"eventData":{"tenderDesc":"Cash","amount":154,"tenderId":11},"header":{"timeStamp":"2026-01-25T00:00:24.782Z","termId":2,"transNo":31,"operatorId":"1","msgSeqNo":12},"eventType":"tender"}
+2026-01-24 19:00:24.790 [DEBUG] response:OK
+2026-01-24 19:00:27.890 [DEBUG] TRANSACTION END SEEN
+2026-01-24 19:00:27.897 [DEBUG] sendTheMessage called
+2026-01-24 19:00:27.900 [DEBUG] Sending:{"eventData":{},"header":{"timeStamp":"2026-01-25T00:00:27.897Z","termId":2,"transNo":31,"operatorId":"1","msgSeqNo":13},"eventType":"transEnd"}
+2026-01-24 19:00:27.906 [DEBUG] response:OK
+2026-01-24 19:00:57.145 [DEBUG] TRANSACTION START SEEN
+2026-01-24 19:00:57.148 [DEBUG] sendTheMessage called
+2026-01-24 19:00:57.151 [DEBUG] Sending:{"eventData":{},"header":{"timeStamp":"2026-01-25T00:00:57.148Z","termId":2,"transNo":32,"operatorId":"1","msgSeqNo":14},"eventType":"transStart"}
+2026-01-24 19:00:57.156 [DEBUG] response:OK
+2026-01-24 19:00:58.225 [DEBUG] TOTALS SEEN
+2026-01-24 19:00:58.231 [DEBUG] sendTheMessage called
+2026-01-24 19:00:58.233 [DEBUG] Sending:{"eventData":{"taxTotal":4,"amtDue":154,"transTotal":154},"header":{"timeStamp":"2026-01-25T00:00:58.231Z","termId":2,"transNo":32,"operatorId":"1","msgSeqNo":15},"eventType":"transTotal"}
+2026-01-24 19:00:58.239 [DEBUG] response:OK
+2026-01-24 19:00:58.616 [DEBUG] AtlasItemSalesEvent SEEN
+2026-01-24 19:00:58.619 [DEBUG] ItemSale a
+2026-01-24 19:00:58.621 [DEBUG] ItemSale b
+2026-01-24 19:00:58.624 [DEBUG] getInputType:KeyedItemCode
+2026-01-24 19:00:58.626 [DEBUG] ItemSale c
+2026-01-24 19:00:58.629 [DEBUG] ItemSale c-1
+2026-01-24 19:00:58.631 [DEBUG] ItemSale c-2
+2026-01-24 19:00:58.633 [DEBUG] ItemSale d
+2026-01-24 19:00:58.636 [DEBUG] sendTheMessage called
+2026-01-24 19:00:58.638 [DEBUG] Sending:{"eventData":{"unitPrice":300,"amount":150,"itemType":"","isAgeRestricted":false,"upc":"59","weight":0,"dept":100,"descr":"FROM 50           ","entry":"keyed","unit":"each","isVoid":false,"qty":1,"minAge":-1},"header":{"timeStamp":"2026-01-25T00:00:58.621Z","termId":2,"transNo":32,"operatorId":"1","msgSeqNo":16},"eventType":"item"}
+2026-01-24 19:00:58.644 [DEBUG] response:OK
+2026-01-24 19:00:58.646 [DEBUG] ItemSale e
+2026-01-24 19:01:06.001 [DEBUG] TOTALS SEEN
+2026-01-24 19:01:06.009 [DEBUG] sendTheMessage called
+2026-01-24 19:01:06.011 [DEBUG] Sending:{"eventData":{"taxTotal":4,"amtDue":154,"transTotal":154},"header":{"timeStamp":"2026-01-25T00:01:06.008Z","termId":2,"transNo":32,"operatorId":"1","msgSeqNo":17},"eventType":"transTotal"}
+2026-01-24 19:01:06.017 [DEBUG] response:OK
+2026-01-24 19:01:07.748 [DEBUG] TOTALS SEEN
+2026-01-24 19:01:07.751 [DEBUG] sendTheMessage called
+2026-01-24 19:01:07.753 [DEBUG] Sending:{"eventData":{"taxTotal":4,"amtDue":154,"transTotal":154},"header":{"timeStamp":"2026-01-25T00:01:07.751Z","termId":2,"transNo":32,"operatorId":"1","msgSeqNo":18},"eventType":"transTotal"}
+2026-01-24 19:01:07.759 [DEBUG] response:OK
+2026-01-24 19:01:13.244 [DEBUG] TOTALS SEEN
+2026-01-24 19:01:13.248 [DEBUG] sendTheMessage called
+2026-01-24 19:01:13.252 [DEBUG] Sending:{"eventData":{"taxTotal":4,"amtDue":147,"transTotal":147},"header":{"timeStamp":"2026-01-25T00:01:13.248Z","termId":2,"transNo":32,"operatorId":"1","msgSeqNo":19},"eventType":"transTotal"}
+2026-01-24 19:01:13.256 [DEBUG] response:OK
+2026-01-24 19:01:13.601 [DEBUG] DISCOUNT SEEN
+2026-01-24 19:01:13.606 [DEBUG] sendTheMessage called
+2026-01-24 19:01:13.609 [DEBUG] Sending:{"eventData":{"descr":"5% SENIOR DISCOUNT","amount":"-0.07","isVoid":false,"rate":"5","isRefund":false,"isTaxExempt":false,"discountReason":"5","discountType":"trans"},"header":{"timeStamp":"2026-01-25T00:01:13.604Z","termId":2,"transNo":32,"operatorId":"1","msgSeqNo":20},"eventType":"discount"}
+2026-01-24 19:01:13.616 [DEBUG] response:OK
+2026-01-24 19:01:13.890 [DEBUG] TOTALS SEEN
+2026-01-24 19:01:13.893 [DEBUG] sendTheMessage called
+2026-01-24 19:01:13.898 [DEBUG] Sending:{"eventData":{"taxTotal":4,"amtDue":147,"transTotal":147},"header":{"timeStamp":"2026-01-25T00:01:13.893Z","termId":2,"transNo":32,"operatorId":"1","msgSeqNo":21},"eventType":"transTotal"}
+2026-01-24 19:01:13.908 [DEBUG] response:OK
+2026-01-24 19:01:16.212 [DEBUG] TOTALS SEEN
+2026-01-24 19:01:16.215 [DEBUG] sendTheMessage called
+2026-01-24 19:01:16.217 [DEBUG] Sending:{"eventData":{"taxTotal":4,"amtDue":147,"transTotal":147},"header":{"timeStamp":"2026-01-25T00:01:16.215Z","termId":2,"transNo":32,"operatorId":"1","msgSeqNo":22},"eventType":"transTotal"}
+2026-01-24 19:01:16.222 [DEBUG] response:OK
+2026-01-24 19:01:23.571 [DEBUG] TOTALS SEEN
+2026-01-24 19:01:23.575 [DEBUG] sendTheMessage called
+2026-01-24 19:01:23.578 [DEBUG] Sending:{"eventData":{"taxTotal":4,"amtDue":-53,"transTotal":147},"header":{"timeStamp":"2026-01-25T00:01:23.575Z","termId":2,"transNo":32,"operatorId":"1","msgSeqNo":23},"eventType":"transTotal"}
+2026-01-24 19:01:23.582 [DEBUG] response:OK
+2026-01-24 19:01:23.835 [DEBUG] TENDER EVENT SEEN
+2026-01-24 19:01:23.838 [DEBUG] sendTheMessage called
+2026-01-24 19:01:23.840 [DEBUG] Sending:{"eventData":{"tenderDesc":"Cash","amount":200,"tenderId":11},"header":{"timeStamp":"2026-01-25T00:01:23.837Z","termId":2,"transNo":32,"operatorId":"1","msgSeqNo":24},"eventType":"tender"}
+2026-01-24 19:01:23.847 [DEBUG] response:OK
+2026-01-24 19:01:24.482 [DEBUG] TOTALS SEEN
+2026-01-24 19:01:24.486 [DEBUG] sendTheMessage called
+2026-01-24 19:01:24.489 [DEBUG] Sending:{"eventData":{"taxTotal":4,"amtDue":-55,"transTotal":147},"header":{"timeStamp":"2026-01-25T00:01:24.486Z","termId":2,"transNo":32,"operatorId":"1","msgSeqNo":25},"eventType":"transTotal"}
+2026-01-24 19:01:24.494 [DEBUG] response:OK
+2026-01-24 19:01:24.905 [DEBUG] TENDER EVENT SEEN
+2026-01-24 19:01:24.908 [DEBUG] sendTheMessage called
+2026-01-24 19:01:24.910 [DEBUG] Sending:{"eventData":{"tenderDesc":"PENNY ROUND","amount":2,"tenderId":13},"header":{"timeStamp":"2026-01-25T00:01:24.908Z","termId":2,"transNo":32,"operatorId":"1","msgSeqNo":26},"eventType":"tender"}
+2026-01-24 19:01:24.915 [DEBUG] response:OK
+2026-01-24 19:01:26.072 [DEBUG] TRANSACTION END SEEN
+2026-01-24 19:01:26.075 [DEBUG] sendTheMessage called
+2026-01-24 19:01:26.077 [DEBUG] Sending:{"eventData":{},"header":{"timeStamp":"2026-01-25T00:01:26.074Z","termId":2,"transNo":32,"operatorId":"1","msgSeqNo":27},"eventType":"transEnd"}
+2026-01-24 19:01:26.081 [DEBUG] response:OK
